@@ -1,10 +1,9 @@
 .react-DragCrop-container {
   height: 500px;
-  width: 752px;
-  background: #ffffff;
+  width: 500px;
+  background: #212121;
   position: relative;
   overflow: hidden;
-  cursor: move;
   img {
     position: absolute;
   }
@@ -13,6 +12,7 @@
     height: 100%;
     width: 100%;
     position: relative;
+    clip-path: circle(48% at 50% 50%)
   }
   .crop-window {
     position: absolute;
